@@ -25,10 +25,10 @@ Project Title: Allen Brain Observatory - Visual Coding AWS Public Data Set
 Based on the  [Allen Brain Observatory - Visual Coding AWS Public Data Set](https://registry.opendata.aws/allen-brain-observatory/). The goal of this project is to study and discover how the brain processes visual information. To fully understand how the visual cortex, hippocampus, and thalamus of the mouse react to visual input is our main goal. In order to make a contribution to the field of neuroscience, especially in neuroimaging and electrophysiology, we plan to use advanced machine learning techniques on this large dataset. Connecting cloud computing and data engineering ideas in the life sciences is one of our teaching goals, and this project fits in with that.
 ## Technologies Used
 - **AWS Services**: Using a number of AWS services, such as Amazon S3 to store and retrieve data, AWS Lambda for serverless computing, and Amazon EC2 for flexible computing power.
-- **Programming Languages: Python is used to work with tools like NumPy and Pandas to process and analyze data.
-- **TensorFlow or PyTorch are two machine learning frameworks that can be used to build and train machine learning models.
-- **Matplotlib and Seaborn are two data visualization tools that can be used to make smart data visualizations.
-- **Version Control: Git is used to handle source code, and GitHub is used to host the code.
+- Programming Languages: Python is used to work with tools like NumPy and Pandas to process and analyze data.
+- TensorFlow or PyTorch are two machine learning frameworks that can be used to build and train machine learning models.
+- Matplotlib and Seaborn are two data visualization tools that can be used to make smart data visualizations.
+- Version Control: Git is used to handle source code, and GitHub is used to host the code.
 ## Dataset
 The Allen Institute manages the [Allen Brain Observatory - Visual Coding AWS Public Data Set](https://registry.opendata.aws/allen-brain-observatory/), that we are using. Two-photon imaging and Neuropixels probes were used to collect data on physiological activity in the visual cortex, hippocampus, and thalamus of the mouse. Research into how the brain processes visual information is aided by it in endless ways.
  
