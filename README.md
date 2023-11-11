@@ -7,3 +7,16 @@ This project aims to explore and analyze the neural mechanisms of visual process
 - **Machine Learning Frameworks**: TensorFlow or PyTorch for developing and training machine learning models.
 - **Data Visualization Tools**: Matplotlib and Seaborn for creating insightful data visualizations.
 - **Version Control**: Git for source code management, with GitHub as the code hosting platform.
+## Dataset
+We are utilizing the [Allen Brain Observatory - Visual Coding AWS Public Data Set](https://registry.opendata.aws/allen-brain-observatory/), managed by the Allen Institute. This comprehensive dataset encompasses physiological activity across the mouse visual cortex, hippocampus, and thalamus, incorporating data from two-photon imaging and Neuropixels probes. It is invaluable for research into visual information processing in the brain.
+
+- **Update Frequency**: Annually&#8203;``【oaicite:2】``&#8203;.
+- **License**: Available under specific [terms of use](http://www.alleninstitute.org/legal/terms-use/) by the Allen Institute&#8203;``【oaicite:1】``&#8203;.
+- **Documentation and Tutorials**: Extensive documentation and usage examples are available on the [dataset's GitHub page](https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS)&#8203;``【oaicite:0】``&#8203;.
+## Setup and Installation
+To get started with this project, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone [repository URL]
+   cd [repository directory]
