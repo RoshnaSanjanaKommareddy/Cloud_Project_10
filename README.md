@@ -20,3 +20,20 @@ To get started with this project, follow these steps:
    ```bash
    git clone [repository URL]
    cd [repository directory]
+
+1.**Install Required Libraries:
+    ```bash
+  pip install -r requirements.txt  
+
+2.**AWS Configuration:
+Set up your AWS credentials for accessing the dataset.
+    ```bash
+    aws configure
+
+3.**Data Retrieval:
+Access the dataset from the AWS S3 bucket.
+    ```bash
+    aws s3 ls --no-sign-request s3://allen-brain-observatory/
+
+This section provides a step-by-step guide to set up the environment, install necessary dependencies, and access the dataset from AWS.
+
