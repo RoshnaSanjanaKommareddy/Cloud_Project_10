@@ -102,7 +102,6 @@ This project was made possible thanks to the following:
 - **Project Contributors**: Special thanks to all team members and contributors who have invested their time and expertise into the development of this project.
 - **Mentors and Advisors**: Gratitude to our mentors and advisors for their guidance and insights throughout the project.
 ## License
-This project is available under [insert your license here, e.g., MIT License]. For more details, see the [LICENSE](LICENSE) file in the repository.
 
 The dataset used in this project, the Allen Brain Observatory - Visual Coding AWS Public Data Set, is provided under its own terms and conditions, which can be found on the [Allen Institute's terms of use page](http://www.alleninstitute.org/legal/terms-use/).
 
