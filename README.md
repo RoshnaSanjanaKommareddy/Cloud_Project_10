@@ -1,7 +1,7 @@
 # Cloud_Project_10
 Project Title: Allen Brain Observatory - Visual Coding AWS Public Data Set
 
-##Table of Contents
+Table of Contents
 1.Introduction
 2.Technologies Used
 3.Dataset
