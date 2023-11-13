@@ -4,22 +4,20 @@ Project Title: Allen Brain Observatory - Visual Coding AWS Public Data Set
     https://registry.opendata.aws/allen-brain-observatory/
 
 ## Table of Contents
-
 1.Introduction
-
 2.Technologies Used
-
 3.Dataset
-
 4.Setup and Installation
-
 5.Usage
-
-6.Contributing
-
-7.Credits and Acknowledgments
-
-8.License
+6.Project Scope and Business Goal
+7.Domain
+8.Literature Review
+9.Data Sources
+10.Domain-specific Challenges
+11.KPIs
+12.Contributing
+13.Credits and Acknowledgments
+14.License
 
 ## Introduction
 Based on the  [Allen Brain Observatory - Visual Coding AWS Public Data Set](https://registry.opendata.aws/allen-brain-observatory/). The goal of this project is to study and discover how the brain processes visual information. To fully understand how the visual cortex, hippocampus, and thalamus of the mouse react to visual input is our main goal. In order to make a contribution to the field of neuroscience, especially in neuroimaging and electrophysiology, we plan to use advanced machine learning techniques on this large dataset. Connecting cloud computing and data engineering ideas in the life sciences is one of our teaching goals, and this project fits in with that.
