@@ -73,16 +73,14 @@ For data analysis and visualization:
        python train_model.py
 
 ## Project Scope and Business Goal
-
 ### Project Scope
-Developing a machine learning model to analyze brain signal data for early detection of neurological disorders, aligning with AWS Academy's goal of applying cloud-based machine learning solutions.
+This project aims to develop a machine learning model to analyze brain signal data for early detection of neurological disorders. It aligns with the AWS Academy Cloud Foundations and Data Engineering's goal of applying cloud-based machine learning solutions to real-world problems.
 
 ### Business Goal
-Enhancing the accuracy and speed of diagnosing neurological disorders to improve patient outcomes and care efficiency.
+Our goal is to provide healthcare professionals with a tool that enhances the accuracy and speed of diagnosing neurological disorders, improving patient outcomes and care efficiency.
 
 ## Domain
-
-Focusing on the healthcare domain, specifically neurology, addressing challenges in handling complex medical data, ensuring high accuracy in diagnostic tools, and adhering to data privacy regulations.
+We are working in the healthcare domain, specifically focusing on neurology. The key challenges in this domain include handling complex medical data, ensuring high accuracy in diagnostic tools, and adhering to stringent data privacy regulations.
 
 ### Stakeholders
 - Healthcare Providers
@@ -90,30 +88,29 @@ Focusing on the healthcare domain, specifically neurology, addressing challenges
 - Medical Researchers
 
 ## Literature Review
-
-1. **"Advanced ML Techniques in Neurological Disorder Diagnosis"** by Smith et al., 2022.
-2. **"Data Security in Healthcare"** by Johnson, 2023.
+1. **"Advanced ML Techniques in Neurological Disorder Diagnosis"** - Smith et al., 2022
+   - Summary: Discusses the use of deep learning in neurological diagnostics.
+2. **"Data Security in Healthcare"** - Johnson, 2023
+   - Summary: Explores data privacy concerns in medical data handling.
 3. [Additional sources with summaries]
 
 ## Data Sources
-
-Utilizing the Allen Brain Observatory dataset, offering a comprehensive view of brain signal data, suitable for our analysis.
+We will use the [Allen Brain Observatory dataset](https://registry.opendata.aws/allen-brain-observatory/), which offers a comprehensive brain signal dataset. This data is well-structured, publicly available, and of high quality, making it suitable for our analysis.
 
 ## Domain-specific Challenges
+### Privacy and Security
+Handling sensitive medical data requires adherence to HIPAA and other privacy laws.
 
-- **Privacy and Security**: Adhering to HIPAA and privacy laws.
-- **Data Complexity**: Handling high-dimensional neurological data.
-- **Bias and Ethics**: Ensuring unbiased and ethical model development.
+### Data Complexity
+Neurological data is complex and high-dimensional, posing significant analytical challenges.
+
+### Bias and Ethics
+Ensuring our model is unbiased and ethically developed is crucial, especially in healthcare.
 
 ## KPIs
-
-- **Accuracy**: Essential for reliable diagnosis.
-- **Sensitivity**: Vital for early detection.
-- **Data Processing Time**: Efficiency in clinical settings.
-
-## Contributing
-
-Contributions are welcome. Please follow the standard GitHub workflow for contributing.
+- **Accuracy**: Critical for reliable diagnosis.
+- **Sensitivity**: Important for early detection of disorders.
+- **Data Processing Time**: Efficiency is key in clinical settings.
 
 ## Credits and Acknowledgments
 
