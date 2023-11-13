@@ -13,9 +13,7 @@
 9. [Data Sources](#data-sources)
 10. [Domain-specific Challenges](#domain-specific-challenges)
 11. [KPIs](#kpis)
-12. [Contributing](#contributing)
-13. [Credits and Acknowledgments](#credits-and-acknowledgments)
-14. [License](#license)
+12. [Contributing : Credits and Acknowledgments](#credits-and-acknowledgments)
 
 ## Introduction
 
@@ -88,11 +86,24 @@ We are working in the healthcare domain, specifically focusing on neurology. The
 - Medical Researchers
 
 ## Literature Review
-1. **"Advanced ML Techniques in Neurological Disorder Diagnosis"** - Smith et al., 2022
-   - Summary: Discusses the use of deep learning in neurological diagnostics.
-2. **"Data Security in Healthcare"** - Johnson, 2023
-   - Summary: Explores data privacy concerns in medical data handling.
-3. [Additional sources with summaries]
+
+1. **[Applications of Machine Learning to Diagnosis and Treatment of Neurodegenerative Diseases](https://www.nature.com/articles/s41582-019-0255-9)** - Nature
+   - Summary: Discusses latest developments in machine learning for analyzing neurodegenerative disease-related datasets, with applications in diagnosis and treatment.
+   
+2. **[Transforming Brain Research with AI and Machine Learning](https://www.news-medical.net/news/20210920/Transforming-brain-research-with-AI-and-machine-learning.aspx)** - News-Medical.net
+   - Summary: Explores how machine learning deepens insights from brain data, improving understanding and treatment in clinical settings.
+
+3. **[Machine-Learning-Based Disease Diagnosis: A Comprehensive Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7730600/)** - NCBI
+   - Summary: Provides insights on machine-learning-based disease diagnosis, focusing on the selection of suitable machine and deep learning methods for disease detection and classification.
+
+4. **[Artificial Intelligence for Brain Diseases: A Systematic Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7395214/)** - NCBI
+   - Summary: Reviews the use of classic machine learning approaches in neurological disorder diagnosis and management, highlighting the role of CT and MRI.
+
+5. **[Machine Learning for Classification and Prediction of Brain Diseases](https://pubmed.ncbi.nlm.nih.gov/32195561/)** - PubMed
+   - Summary: Highlights the use of machine learning in assisting the diagnosis and prognosis of brain disorders, noting the rapid research progress in this area.
+
+6. **[Machine Learning in Neurology: What Neurologists Can Learn From AI](https://pubmed.ncbi.nlm.nih.gov/31781736/)** - PubMed
+   - Summary: Discusses the integration of AI and machine learning in clinical neurology, reviewing studies using machine learning classifiers for neurological disorder prediction.
 
 ## Data Sources
 We will use the [Allen Brain Observatory dataset](https://registry.opendata.aws/allen-brain-observatory/), which offers a comprehensive brain signal dataset. This data is well-structured, publicly available, and of high quality, making it suitable for our analysis.
@@ -115,10 +126,6 @@ Ensuring our model is unbiased and ethically developed is crucial, especially in
 ## Credits and Acknowledgments
 
 - **Allen Institute**: For the dataset.
-- **Project Contributors**: Team members and contributors.
+- **Project Contributors**: Team members.
 - **Mentors and Advisors**: Guidance and support throughout the project.
-
-## License
-
-Subject to the Allen Institute's terms of use for the dataset.
 
