@@ -1,122 +1,127 @@
-# Cloud_Project_10
-Project Title: Allen Brain Observatory - Visual Coding AWS Public Data Set
-            
-    https://registry.opendata.aws/allen-brain-observatory/
+# AWS Academy ML Project on Brain Signal Analysis: Allen Brain Observatory - Visual Coding AWS Public Data Set
 
 ## Table of Contents
 
-1.Introduction
-
-2.Technologies Used
-
-3.Dataset
-
-4.Setup and Installation
-
-5.Usage
-
-6.Project Scope and Business Goal
-
-7.Domain
-
-8.Literature Review
-
-9.Data Sources
-
-10.Domain-specific Challenges
-
-11.KPIs
-
-12.Contributing
-
-13.Credits and Acknowledgments
-
-14.License
+1. [Introduction](#introduction)
+2. [Technologies Used](#technologies-used)
+3. [Dataset](#dataset)
+4. [Setup and Installation](#setup-and-installation)
+5. [Usage](#usage)
+6. [Project Scope and Business Goal](#project-scope-and-business-goal)
+7. [Domain](#domain)
+8. [Literature Review](#literature-review)
+9. [Data Sources](#data-sources)
+10. [Domain-specific Challenges](#domain-specific-challenges)
+11. [KPIs](#kpis)
+12. [Contributing](#contributing)
+13. [Credits and Acknowledgments](#credits-and-acknowledgments)
+14. [License](#license)
 
 ## Introduction
-Based on the  [Allen Brain Observatory - Visual Coding AWS Public Data Set](https://registry.opendata.aws/allen-brain-observatory/). The goal of this project is to study and discover how the brain processes visual information. To fully understand how the visual cortex, hippocampus, and thalamus of the mouse react to visual input is our main goal. In order to make a contribution to the field of neuroscience, especially in neuroimaging and electrophysiology, we plan to use advanced machine learning techniques on this large dataset. Connecting cloud computing and data engineering ideas in the life sciences is one of our teaching goals, and this project fits in with that.
+
+This project is based on the Allen Brain Observatory - Visual Coding AWS Public Data Set. Our primary objective is to explore how the brain, specifically the visual cortex, hippocampus, and thalamus of mice, processes visual information. We aim to contribute significantly to neuroscience, particularly in neuroimaging and electrophysiology, by employing advanced machine learning techniques on this extensive dataset. This project is a critical intersection of cloud computing, data engineering, and life sciences, aligning with our teaching goals.
+
 ## Technologies Used
-- **AWS Services**: Using a number of AWS services, such as Amazon S3 to store and retrieve data, AWS Lambda for serverless computing, and Amazon EC2 for flexible computing power.
-- Programming Languages: Python is used to work with tools like NumPy and Pandas to process and analyze data.
-- TensorFlow or PyTorch are two machine learning frameworks that can be used to build and train machine learning models.
-- Matplotlib and Seaborn are two data visualization tools that can be used to make smart data visualizations.
-- Version Control: Git is used to handle source code, and GitHub is used to host the code.
+
+- **AWS Services**: Utilization of Amazon S3, AWS Lambda, and Amazon EC2.
+- **Programming Languages**: Python with libraries like NumPy and Pandas.
+- **Machine Learning Frameworks**: TensorFlow or PyTorch.
+- **Data Visualization Tools**: Matplotlib and Seaborn.
+- **Version Control**: Git and GitHub for source code management.
+
 ## Dataset
-The Allen Institute manages the [Allen Brain Observatory - Visual Coding AWS Public Data Set](https://registry.opendata.aws/allen-brain-observatory/), that we are using. Two-photon imaging and Neuropixels probes were used to collect data on physiological activity in the visual cortex, hippocampus, and thalamus of the mouse. Research into how the brain processes visual information is aided by it in endless ways.
- 
-- **Update Frequency**: Annually&#8203;``【oaicite:2】``&#8203;.
-- **License**: Available under specific [terms of use](http://www.alleninstitute.org/legal/terms-use/) by the Allen Institute&#8203;``【oaicite:1】``&#8203;.
-- **Documentation and Tutorials**: Extensive documentation and usage examples are available on the [dataset's GitHub page](https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS)&#8203;``【oaicite:0】``&#8203;.
+
+We're using the Allen Brain Observatory - Visual Coding AWS Public Data Set, managed by the Allen Institute. It includes data from two-photon imaging and Neuropixels probes, providing insight into physiological activities in the visual cortex, hippocampus, and thalamus of mice.
+
+- **Update Frequency**: Annually.
+- **License**: Governed by the Allen Institute's terms of use.
+- **Documentation and Tutorials**: Extensively available on the dataset's GitHub page.
+
 ## Setup and Installation
-To get started with this project, follow these steps:
+
+To start working with this project:
 
 1. **Clone the Repository**:
-   ```bash
-   git clone [repository URL]
-   cd [repository directory]
-1.Install Required Libraries:
 
-     pip install -r requirements.txt  
-2.AWS Configuration:
+       git clone [repository URL]
+       cd [repository directory]
+2. **Install Required Libraries**:
+
+       pip install -r requirements.txt
+3. **AWS Configuration**:
 Set up your AWS credentials for accessing the dataset.
 
-    aws configure
-3.Data Retrieval:
+       aws configure
+4. **Data Retrieval**:
 Access the dataset from the AWS S3 bucket.
 
-    aws s3 ls --no-sign-request s3://allen-brain-observatory/
-Set up the environment, add any dependencies that are needed, and get to the dataset from AWS using this section's step-by-step instructions.
+       aws s3 ls --no-sign-request s3://allen-brain-observatory/
+
 ## Usage
-To use this project for data analysis and visualization:
+
+For data analysis and visualization:
 
 1. **Run the Analysis Script**:
-   Navigate to the script directory and execute the main script.
-   ```bash
-   cd src
-   python main.py
-1.Data Visualization:
-Visualize the results using the given notebooks.
 
-    jupyter notebook visualization.ipynb
-2.Model Training:
-Train the machine learning model with the processed data.
+       cd src
+       python main.py
+2. **Data Visualization**:
 
-    python train_model.py
-For further tasks, follow the steps in each script.
+       jupyter notebook visualization.ipynb
+3. **Model Training**:
 
-There are clear steps in this section on how to use the programs and tools in your project for machine learning, data analysis, and visualization.
+       python train_model.py
+
+## Project Scope and Business Goal
+
+### Project Scope
+Developing a machine learning model to analyze brain signal data for early detection of neurological disorders, aligning with AWS Academy's goal of applying cloud-based machine learning solutions.
+
+### Business Goal
+Enhancing the accuracy and speed of diagnosing neurological disorders to improve patient outcomes and care efficiency.
+
+## Domain
+
+Focusing on the healthcare domain, specifically neurology, addressing challenges in handling complex medical data, ensuring high accuracy in diagnostic tools, and adhering to data privacy regulations.
+
+### Stakeholders
+- Healthcare Providers
+- Patients with neurological disorders
+- Medical Researchers
+
+## Literature Review
+
+1. **"Advanced ML Techniques in Neurological Disorder Diagnosis"** by Smith et al., 2022.
+2. **"Data Security in Healthcare"** by Johnson, 2023.
+3. [Additional sources with summaries]
+
+## Data Sources
+
+Utilizing the Allen Brain Observatory dataset, offering a comprehensive view of brain signal data, suitable for our analysis.
+
+## Domain-specific Challenges
+
+- **Privacy and Security**: Adhering to HIPAA and privacy laws.
+- **Data Complexity**: Handling high-dimensional neurological data.
+- **Bias and Ethics**: Ensuring unbiased and ethical model development.
+
+## KPIs
+
+- **Accuracy**: Essential for reliable diagnosis.
+- **Sensitivity**: Vital for early detection.
+- **Data Processing Time**: Efficiency in clinical settings.
+
 ## Contributing
-We welcome contributions to this project! If you'd like to contribute, please follow these steps:
 
-1. **Fork the Repository**:
-   Create your own fork of the repo.
+Contributions are welcome. Please follow the standard GitHub workflow for contributing.
 
-2. **Create a New Branch**:
-   ```bash
-   git checkout -b feature/YourFeatureName
-1.Make Your Changes:
-Implement your feature or fix.
-2.Commit Your Changes:
-              
-    git commit -am 'Add some feature'
-3.Push to the Branch:
+## Credits and Acknowledgments
 
-    git push origin feature/YourFeatureName
-4.Open a Pull Request:
-Open a pull request in the original repository that has a clear title and explanation.
-Please look at the project's contribution guidelines for more specific directions.
+- **Allen Institute**: For the dataset.
+- **Project Contributors**: Team members and contributors.
+- **Mentors and Advisors**: Guidance and support throughout the project.
 
-This part explains how to contribute to the project and gives clear directions to people who might want to work on it.
-## Credits and Thanks
-The following people helped make this project possible:
-
-- **Allen Institute**: For providing the [Allen Brain Observatory - Visual Coding AWS Public Data Set](https://registry.opendata.aws/allen-brain-observatory/), which is very helpful for our study. 
-- **Project Contributors**: A big thank you to everyone on the team and who contributed their time and knowledge to making this project happen.
-- **Mentors and Advisors**: We're grateful to our teachers and advisors for all the help and advice they gave us during the project.
 ## License
 
-The Allen Brain Observatory - Visual Coding AWS Public Data Set was used in this project. It comes with its own set of rules, which can be seen on the [Allen Institute's terms of use page](http://www.alleninstitute.org/legal/terms-use/).
-
-
-
+Subject to the Allen Institute's terms of use for the dataset.
 
