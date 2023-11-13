@@ -4,19 +4,33 @@ Project Title: Allen Brain Observatory - Visual Coding AWS Public Data Set
     https://registry.opendata.aws/allen-brain-observatory/
 
 ## Table of Contents
+
 1.Introduction
+
 2.Technologies Used
+
 3.Dataset
+
 4.Setup and Installation
+
 5.Usage
+
 6.Project Scope and Business Goal
+
 7.Domain
+
 8.Literature Review
+
 9.Data Sources
+
 10.Domain-specific Challenges
+
 11.KPIs
+
 12.Contributing
+
 13.Credits and Acknowledgments
+
 14.License
 
 ## Introduction
