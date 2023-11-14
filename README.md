@@ -13,7 +13,8 @@
 9. [Data Sources](#data-sources)
 10. [Domain-specific Challenges](#domain-specific-challenges)
 11. [KPIs](#kpis)
-12. [Contributing : Credits and Acknowledgments](#credits-and-acknowledgments)
+12. [AWS Services Used](#AWS-Services-Used)
+13. [Contributing: Credits and Acknowledgments](#credits-and-acknowledgments)
 
 ## Introduction
 
