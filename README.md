@@ -122,14 +122,15 @@ Ensuring our model is unbiased and ethically developed is crucial, especially in
 - **Accuracy**: Critical for reliable diagnosis.
 - **Sensitivity**: Important for early detection of disorders.
 - **Data Processing Time**: Efficiency is key in clinical settings.
+
 ## AWS Services Used
--- **Amazon S3: Data storage
--- **Amazon Athena: Data querying
--- **Amazon QuickSight: Data visualization
--- **AWS Glue: ETL processes
--- **Amazon SageMaker: Model development and training
--- **AWS Lambda (optional): Pipeline Automation
--- **AWS Cost Explorer and Trusted Advisor: Cost analysis
+- **Amazon S3: Data storage
+- **Amazon Athena: Data querying
+- **Amazon QuickSight: Data visualization
+- **AWS Glue: ETL processes
+- **Amazon SageMaker: Model development and training
+- **AWS Lambda (optional): Pipeline Automation
+- **AWS Cost Explorer and Trusted Advisor: Cost analysis
 
 ## Credits and Acknowledgments
 
