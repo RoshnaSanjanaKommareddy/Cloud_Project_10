@@ -1,0 +1,2 @@
+aws configure
+aws s3 ls --no-sign-request s3://allen-brain-observatory/
