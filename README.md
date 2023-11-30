@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [Introduction](#introduction) 
 2. [Technologies Used](#technologies-used)
 3. [Dataset](#dataset)
 4. [Setup and Installation](#setup-and-installation)
