@@ -17,7 +17,7 @@
    - [AWS Services Used](#aws-services-used)
 2. [Pipeline](#pipeline)
 3. [Deliverable 2](#deliverable-2)
-4. [Deliverable 3](Deliverable-3.pdf)
+4. [Deliverable 3](Deliverable 3.pdf)
 5. [Deliverable 4](#deliverable-4)
 6. [Contributing: Credits and Acknowledgments](#credits-and-acknowledgments)
 
